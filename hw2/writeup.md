@@ -1,20 +1,19 @@
 # CMPSC 174A Homework 2: Basic SQL Queries
- ## HW2 STILL UNDER CONSTRUCTION!
 **Objectives:** To create and import databases and to practice simple SQL queries using SQLite.
 
 **Assignment tools:** [SQLite 3](https://www.sqlite.org/), the flights dataset hosted in `hw2` directory.
 (Reminder: To extract the content of the tar file, run the following command in the terminal of your machine, after navigating to the directory containing `flights-small.tar.gz`: 
 `tar zxvf flights-small.tar.gz`)
 
-**Assigned date:** PENDING!!!
+**Assigned date:** 2020-01-19 18:00:00
 
-**Due date:** PENDING!!!. You have 1 week for this assignment. Your solutions/files should be uploaded to **GradeScope** (GradeScope Course Entry Code: **V8BNGJ**)
+**Due date:** 2020-01-26 23:59:59 **Pacific Time** You have 1 week for this assignment. Your solutions/files should be uploaded directly to the **GradeScope** HW2 submission page. (GradeScope Course Entry Code: **V8BNGJ**)
 
 **Questions:** Make sure your post them on Piazza.
 
 **What to turn in:**
 
-`create-tables.sql` and `q1.sql`, `q2.sql`, etc (see below).
+`create-tables.sql`(Create Tables + Load Data files To Tables) and `q1.sql`, `q2.sql`, etc (see below).
 
 **Resources:** 
 
@@ -214,7 +213,7 @@ Instead of writing:
 If we release major changes to the homework, we will announce it on Piazza. Then you will need to re-pull from CMPSC174A repository. 
 
 ## Submission Instructions
-To join CMPSC 174A GradeScope, make sure to use the Course Entry Code: **V8BNGJ**. GradeScope should ask you for the Course Entry Code when you sign up. If you already have GradeScope account, you can click on `Enroll In Course` (bottom right) on your GradeScope Dashboard page. 
+A GradeScope invitation has been sent to your Umail address. If not, you can join the CMPSC 174A GradeScope manually by using the Course Entry Code: **V8BNGJ** (Please ONLY use your umail address). GradeScope should ask you for the Course Entry Code when you sign up. If you already have a GradeScope account, you can click on `Enroll In Course` (bottom right) on your GradeScope Dashboard page. 
 
 Answer each of the queries above and put your SQL query in a separate file. 
 Call them `create-tables.sql`, `q1.sql`, `q2.sql`, etc. Make sure you name the files exactly as is. Then you can upload your files to GradeScope CMPSC174A - HW2. 
