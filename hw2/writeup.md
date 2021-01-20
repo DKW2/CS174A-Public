@@ -5,9 +5,9 @@
 (Reminder: To extract the content of the tar file, run the following command in the terminal of your machine, after navigating to the directory containing `flights-small.tar.gz`: 
 `tar zxvf flights-small.tar.gz`)
 
-**Assigned date:** 2020-01-19 18:00:00
+**Assigned date:** 2021-01-19 18:00:00
 
-**Due date:** 2020-01-26 23:59:59 **Pacific Time** You have 1 week for this assignment. Your solutions/files should be uploaded directly to the **GradeScope** HW2 submission page. (GradeScope Course Entry Code: **V8BNGJ**)
+**Due date:** 2021-01-26 23:59:59 **Pacific Time** You have 1 week for this assignment. Your solutions/files should be uploaded directly to the **GradeScope** HW2 submission page. (GradeScope Course Entry Code: **V8BNGJ**)
 
 **Questions:** Make sure your post them on Piazza.
 
