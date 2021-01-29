@@ -1,4 +1,4 @@
-# CSE 344 Homework 4: Finding the Mitochondrial Eve
+# CS174A Homework 3: Finding the Mitochondrial Eve
 
 **Objectives:**
 To understand how queries are translated into the relational algebra. To master writing relational queries in a logic formalism using Datalog.
@@ -6,7 +6,7 @@ To understand how queries are translated into the relational algebra. To master 
 **Assignment tools:**
 Part 1: "pen and paper"; Part 2: Soufflé
 
-**Assigned date:** Thursday, Jan 28, 2021
+**Assigned date:** Thursday, Jan 28, 2021, 4 pm.
 
 **Due date:** Monday, Feb 8, 2021, 11 pm. You have 1 week for this assignment.
 
@@ -35,7 +35,7 @@ Part 1: "pen and paper"; Part 2: Soufflé
  
  <img src="figs/ra.jpg" width="500"/>
  
- Save your answer in `hw3-q1.txt`. *Remember to follow the same style guide for writing SQL as in HW2 and HW3! (we reserve the right to take off points even if your query returns the correct results)*
+ Save your answer in `hw3-q1.txt`. *Remember to follow the same style guide for writing SQL as in HW1 and HW2! (we reserve the right to take off points even if your query returns the correct results)*
 
 
 2. (10 points) Write a relational algebra plan for the following SQL query:
@@ -126,7 +126,7 @@ For Part 1, write your answers in a file `hw3-q1.txt`, and `hw3-q2.txt`.
 
 Write your answers in the provided file `hw3.dl`.
 
-Submit your answers to the `GradeScope` at : 
+Submit your answers to the `GradeScope`. For Question3, please submit five answers to the individual sub-questions.
 
 
 Like previous assignments, make sure you check the results afterwards to make sure that your file(s)
