@@ -9,7 +9,7 @@ To practice advanced SQL and ER diagram
 
 **Assigned date:** Thursday, February 11, 2021
 
-**Due date:** 
+**Due date:** Tuesday, February 23, 2021
 
 **What to turn in:**
 `q1.sql`, `q2.sql`, etc. (see below).
@@ -34,33 +34,6 @@ Also, make sure that the types of the columns in the tables you created match th
 
 The data used in this assignment is the same as that in HW2, in the `flights-small.csv`, `carriers.csv`, `months.csv`, and `weekdays.csv` files.
 
-```sql
-CREATE EXTERNAL DATA SOURCE cse344blob
-WITH (  TYPE = BLOB_STORAGE,
-        LOCATION = 'https://cse344sp20.blob.core.windows.net/flights'
-);
-bulk insert Carriers from 'carriers.csv'
-with (ROWTERMINATOR = '0x0a',
-DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
-FIRSTROW=1,TABLOCK);
-bulk insert Months from 'months.csv'
-with (ROWTERMINATOR = '0x0a',
-DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
-FIRSTROW=1,TABLOCK);
-bulk insert Weekdays from 'weekdays.csv'
-with (ROWTERMINATOR = '0x0a',
-DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
-FIRSTROW=1,TABLOCK);
-```
-
-```sql
--- Import for the large Flights table
--- This last import might take a little under 5 minutes on the provided server settings
-bulk insert Flights from 'flights-small.csv'
-with (ROWTERMINATOR = '0x0a',
-DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
-FIRSTROW=1,TABLOCK);
-```
 
 Do some `SELECT count(*)` statements to check whether your imports were successful.
 
@@ -69,9 +42,9 @@ Do some `SELECT count(*)` statements to check whether your imports were successf
 - Weekdays has 8 rows
 - Flights has 1148675 rows
 
-Those are basically imported in homework2. If you don't then do these again.
+Those are basically imported in homework2. If you don't then do these again. Instructions for importing will be found on the HW2. 
 
-### Part B. SQL Queries (60 points):
+### Part B. SQL Queries (45 points):
 
 For each question below, write a single SQL query to answer that question 
 (you can use subqueries this time), and save your submission in individual files `q1.sql`, `q2.sql`, etc.
@@ -113,7 +86,7 @@ Report percentages as percentages not decimals (e.g., report 75.25 rather than 0
 
     [Output relation cardinality: 327]
 
-## Part C: Theory on ERD
+## Part C: Theory on ERD (65)
 
 1. (10 points) Design an E/R diagram for geography that contains the following kinds of objects or entities together with the listed attributes. 
 
